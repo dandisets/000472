@@ -6,9 +6,24 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 1775584080
+  numberOfFiles: 8
+  numberOfSubjects: 8
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_6239
+    name: Caenorhabditis elegans
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ProcessingModule
 citation: Sprague, Daniel (2023) NeuroPAL volumetric images (Version draft) [Data
   set]. DANDI archive. https://dandiarchive.org/dandiset/000472/draft
 contributor:
