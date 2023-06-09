@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000472
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -41,19 +42,32 @@ description: "Partially labeled NeuroPAL volumetric images produced by the Kato 
   these datasets more easily accessible in a centralized location like DANDI will
   significantly speed up development by allowing new researchers to start working
   on algorithms without the need to build up their own full dataset of training data
-  beforehand. \n\nNWB files in this dataset contain the neuroPAL raw images, pre-processed
-  images, neuron segmentations and associated manual labels, and additional metadata
-  around experimental and imaging conditions.\n\nAs part of this effort, we also propose
-  a novel extension to the NWB data format to allow for multichannel volumetric data."
+  beforehand. \n\nAs part of this effort, we also propose a novel extension to the
+  NWB data format to allow for multichannel volumetric data.\n\nContents:\n\nSubject
+  (C. elegans subject) - contains relevant metadata about the experimental subject\n\nAcquisition,
+  \"NeuroPALImageRaw\" (MultiChannelVolume) - contains the raw image and associated
+  metadata with dimensions (X, Y, Z, C)\n\nProcessing,  \"NeuroPAL\", \"VolumeSegmentation\"
+  (VolumeSegmentation) - contains a list of neuron centers and associated IDs (X,
+  Y, Z, weight, ID)\n\nProcessing, \"NeuroPAL\", \"ImagingVolume\" (ImagingVolume)
+  - contains the metadata associated with the imaging acquisition\n\nProcessing, \"NeuroPAL\",
+  \"OpticalChannelRefs\" (OpticalChannelReferences) - contains the order of the optical
+  channels in the image\n\nProcessing, \"ProcessedImage\", \"Hist_match_med_filt\"
+  - contains the processed NeuroPAL image with dimensions (X,Y,Z,C)"
+ethicsApproval: []
 id: DANDI:000472/draft
 identifier: DANDI:000472
+keywords: []
 license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000472/versions/draft/assets/
 name: NeuroPAL volumetric images
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000472/draft
 version: draft
+wasGeneratedBy: []
