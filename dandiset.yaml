@@ -7,7 +7,9 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach: []
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
@@ -15,9 +17,9 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 1578666600
-  numberOfFiles: 7
-  numberOfSubjects: 7
+  numberOfBytes: 3167247144
+  numberOfFiles: 15
+  numberOfSubjects: 8
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_6239
@@ -25,6 +27,7 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ProcessingModule
+  - PlaneSegmentation
 citation: Sprague, Daniel (2023) NeuroPAL volumetric images (Version draft) [Data
   set]. DANDI archive. https://dandiarchive.org/dandiset/000472/draft
 contributor:
