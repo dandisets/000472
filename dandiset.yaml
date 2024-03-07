@@ -17,8 +17,8 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 3880845440
-  numberOfFiles: 18
+  numberOfBytes: 18442605394
+  numberOfFiles: 10
   numberOfSubjects: 10
   schemaKey: AssetsSummary
   species:
@@ -26,9 +26,9 @@ assetsSummary:
     name: Caenorhabditis elegans
     schemaKey: SpeciesType
   variableMeasured:
-  - ProcessingModule
   - PlaneSegmentation
-citation: Sprague, Daniel (2023) NeuroPAL volumetric images (Version draft) [Data
+  - ProcessingModule
+citation: Sprague, Daniel (2024) NeuroPAL volumetric images (Version draft) [Data
   set]. DANDI archive. https://dandiarchive.org/dandiset/000472/draft
 contributor:
 - affiliation: []
