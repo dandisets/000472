@@ -29,8 +29,8 @@ assetsSummary:
   - PlaneSegmentation
   - ProcessingModule
 citation: Dunn, Raymond; Sprague, Daniel; Borchardt, Jackson; Bubnis, Greg; Kato,
-  Saul (2024) NeuroPAL volumetric images (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000472/draft
+  Saul (2024) NeuroPAL volumetric images (Version 0.241009.1502) [Data set]. DANDI
+  archive. https://doi.org/10.48324/dandi.000472/0.241009.1502
 contributor:
 - includeInCitation: true
   name: Dunn, Raymond
@@ -72,14 +72,15 @@ description: "Partially labeled NeuroPAL volumetric images produced by the Kato 
   \"OpticalChannelRefs\" (OpticalChannelReferences) - contains the order of the optical
   channels in the image\n\nProcessing, \"ProcessedImage\", \"Hist_match_med_filt\"
   - contains the processed NeuroPAL image with dimensions (X,Y,Z,C)"
+doi: 10.48324/dandi.000472/0.241009.1502
 ethicsApproval: []
-id: DANDI:000472/draft
+id: DANDI:000472/0.241009.1502
 identifier: DANDI:000472
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000472/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000472/0.241009.1502/assets.yaml
 name: NeuroPAL volumetric images
 protocol: []
 publishedBy:
@@ -99,6 +100,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000472/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000472/0.241009.1502
+version: 0.241009.1502
 wasGeneratedBy: []
