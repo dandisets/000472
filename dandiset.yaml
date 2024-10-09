@@ -28,15 +28,15 @@ assetsSummary:
   variableMeasured:
   - PlaneSegmentation
   - ProcessingModule
-citation: Sprague, Daniel; Borchardt, Jackson; Dunn, Raymond (2024) NeuroPAL volumetric
-  images (Version 0.240625.0454) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000472/0.240625.0454
+citation: Sprague, Daniel; Borchardt, Jackson; Dunn, Raymond; Bubnis, Greg; Kato,
+  Saul (2024) NeuroPAL volumetric images (Version 0.241009.1501) [Data set]. DANDI
+  archive. https://doi.org/10.48324/dandi.000472/0.241009.1501
 contributor:
 - affiliation: []
   email: daniel.y.sprague@gmail.com
   includeInCitation: true
   name: Sprague, Daniel
-  roleName:
-  - dcite:ContactPerson
+  roleName: []
   schemaKey: Person
 - includeInCitation: true
   name: Borchardt, Jackson
@@ -44,14 +44,17 @@ contributor:
 - includeInCitation: true
   name: Dunn, Raymond
   schemaKey: Person
-- includeInCitation: false
+- includeInCitation: true
   name: Bubnis, Greg
   schemaKey: Person
-- includeInCitation: false
+- email: saul.kato@ucsf.edu
+  includeInCitation: true
   name: Kato, Saul
+  roleName:
+  - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-04-06T19:58:28.232167+00:00'
-datePublished: '2024-06-25T04:54:01.046779+00:00'
+datePublished: '2024-10-09T15:01:38.842980+00:00'
 description: "Partially labeled NeuroPAL volumetric images produced by the Kato lab
   at UCSF as part of an effort to add to the corpus of existing labeled data to facilitate
   the development of automatic cell identification algorithms. We hope that making
@@ -69,25 +72,25 @@ description: "Partially labeled NeuroPAL volumetric images produced by the Kato 
   \"OpticalChannelRefs\" (OpticalChannelReferences) - contains the order of the optical
   channels in the image\n\nProcessing, \"ProcessedImage\", \"Hist_match_med_filt\"
   - contains the processed NeuroPAL image with dimensions (X,Y,Z,C)"
-doi: 10.48324/dandi.000472/0.240625.0454
+doi: 10.48324/dandi.000472/0.241009.1501
 ethicsApproval: []
-id: DANDI:000472/0.240625.0454
+id: DANDI:000472/0.241009.1501
 identifier: DANDI:000472
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://dandiarchive.s3.amazonaws.com/dandisets/000472/0.240625.0454/assets.yaml
+- https://dandiarchive.s3.amazonaws.com/dandisets/000472/0.241009.1501/assets.yaml
 name: NeuroPAL volumetric images
 protocol: []
 publishedBy:
-  endDate: '2024-06-25T04:54:01.046779+00:00'
-  id: urn:uuid:5d533231-1f90-49cc-9f4d-c09c8cd1aed7
+  endDate: '2024-10-09T15:01:38.842980+00:00'
+  id: urn:uuid:3d8a32c8-353a-4b52-82b7-8a0fb1c1a4f7
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-06-25T04:54:01.046779+00:00'
+  startDate: '2024-10-09T15:01:38.842980+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:247261ec-7987-4f3b-ae27-f3abdf6090ae
+  - id: urn:uuid:8b16133f-5ee1-494e-b8f5-f268d372bc6b
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -97,6 +100,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000472/0.240625.0454
-version: 0.240625.0454
+url: https://dandiarchive.org/dandiset/000472/0.241009.1501
+version: 0.241009.1501
 wasGeneratedBy: []
